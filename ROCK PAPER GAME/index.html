@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- main heading of page -->
+
+    <div class="heading">
+        <h1 class="heading-main">Rock Paper Scissors</h1>
+    </div>
+
+    <!-- images for Game -->
+    <div class="selections">
+        <div class="selection" id="rock">
+            <img src="rock.png" alt="rock image" >
+        </div>
+        <div class="selection" id="paper">
+            <img  src="paper.png" alt="paper image" >
+        </div>
+        <div class="selection" id="scissors">
+            <img src="scissors.png" alt="scissors image" >
+        </div>
+    </div>
+
+    <!-- scoreboard for game -->
+    <div class="scoreboard">
+        <div class="userscore">
+            <p class="scoreuser">0</p>
+            <p id="scoreuser">You</p>
+        </div>
+        <div class="compscore">
+            <p class="scorecomp">0</p>
+            <p id="scorecomp">Comp</p>
+        </div>
+    </div>
+
+    <!-- msg box to show what to do who won -->
+    <div class="msg">
+        <p id="msg">Play Your Move!</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

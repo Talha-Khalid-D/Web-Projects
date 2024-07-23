@@ -1,0 +1,103 @@
+/* all webpage styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* heading style */
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0813b1;
+    color: white;
+    height: 90px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+/* style for images */
+
+.selection{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5rem; */
+    border-radius: 50%;
+}
+
+/* hover effect on images */
+
+.selection:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+/* make images show in a single column */
+
+.selections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5rem; */
+    gap: 3rem;
+    /* margin-top: 5rem; */
+    margin-top: 3rem;
+}
+
+/* display the main content of images in round shape circles */
+
+img{
+    height: 150px;
+    width: 150px;
+    /* object-fit:fill; */
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+/* style for the scoreboard section */
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    /* font-size: 30px; */
+    font-size: 2rem;
+}
+
+/* make the score counts in the middle of the names(user , comp) */
+
+.userscore .compscore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* make the scores size a little big */
+
+.scoreuser .scorecomp{
+    font-size: 4rem;
+}
+
+/* style the msg box */
+
+.msg{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #0813b1;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem;
+    display:inline;
+    padding: 1rem;
+}
